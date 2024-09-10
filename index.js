@@ -9,3 +9,25 @@ const pi = 3.14151619
 
 console.log(mensagem);
 console.log("hello world!");
+
+// arrays
+let arrays = ["palavra01", "palavra02"]
+
+console.log(arrays[0] + " " + arrays[1])
+
+// objetos
+let meta = {
+    value: 'ler um livro por mês',
+    checked: true,
+    log: (info) => {
+        console.log(info)
+    }
+}
+
+console.log(meta.value)
+meta.log("Crime e Castigo")
+
+// function     // arrow function
+const criarMeta = () => {}
+
+function criarMeta() {}
