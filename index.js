@@ -27,7 +27,17 @@ let meta = {
 console.log(meta.value)
 meta.log("Crime e Castigo")
 
+let metas = [
+    meta,
+    {
+        value: 'treinar todos os dias',
+        checked: true 
+    }
+]
+
+console.log(metas[1].value)
+
 // function     // arrow function
 const criarMeta = () => {}
 
-function criarMeta() {}
+function criarMeta02() {}
