@@ -3,49 +3,82 @@
 Maneira de dar instrução ao computador.
 Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para resolver problemas.
 
-**Algoritmo**: Sequência de passos lógica e finita para resolução de um problema.
+> 💡 **Algoritmo**: Sequência de passos lógica e finita para resolução de um problema.
 
 ## Peças de uma linguagem
 
 - Comentários
 - Declaração de variáveis (const, let)
-- Operadores (atribuição, concatenação, matemáticos, lógicos)
+- Operadores (atribuição, concatenação, matemáticos, lógicos )
 - Tipos de dados (string, number, boolean)
 - Estrutura de dados (functions, object, array)
 - Controle de fluxo (if/else)
 - Estrutura de repetição (for, while)
 
 # Fases da resolução de um problema
-- Entrada
-    - Coletar os dados
-- Processamento
-    - Manipular, alterar...
-- Saida
-    - Apresentar os dados
+
+Coletar os dados
+Processar os dados (manipular, alterar ...)
+Apresentar os dados
 
 ## Escopo e variáveis:
-- Variáveis globais e locais
-- Constantes
 
-## Tipo de dados:
-String (textos)
-Numbers
-Function
+- [x] Variáveis globais e locais
+- [x] Constantes
 
-## Operadores
-Operadores de atribuição de valor
-Operador de concatenação
+## Tipos de dados:
+
+- [x] Strings (texto): "" '' ``
+- [x] Numbers: 2 1.4
+- [x] Boolean: true, false
+
+# Operadores
+
+- [x] Operadores de atribuição de valor: =
+- [x] Operador de contatenação: +
+- [x] Operadores de comparação: == != <= >= < >
+- [x] Spread operator: ...
 
 ## Estruturas de dados:
 
-### Arrays:
-- Uma lista que contém qualquer tipo de dado
+### Arrays: 
+
+- [x] Uma lista que contém qualquer tipo de dado
+- [x] Métodos de array: push, [find, forEach, filter, map] : HOF (Higher Order Functions)
 
 ### Objetos:
-- Atributos e métodos
-- Criação e manipulação de objetos
-- Acesso a propriedades de objetos    
+
+- [x] Atributos e métodos
+- [x] Criação e manipulação de objetos
+- [x] Acesso a propriedades de objetos
 
 ### Functions
-- Arrow Function
-- Named Function
+
+- [x] criar, passar argumento
+- [x] excutar
+- [x] arrow function / named function
+
+# Estrutura de repetição
+
+- [x] while
+
+# Condicionais
+
+- [x] switch
+- [x] if/else
+
+## Módulos em Node.js:
+
+- [x] Importação de módulos (require, CommonJS)
+- [x] Biblioteca 'inquirer' para criar prompts interativos
+- [x] FS (file system)
+
+## JSON
+
+- [x] Javascript Object Notation (.json)
+- [x] JSON.parse(): transforma de JSON para JS
+- [x] JSON.stringify(): transforma de JS para JSON
+
+## Programação assíncrona e Promises:
+
+- [x] Uso de funções assíncronas (async/await)
