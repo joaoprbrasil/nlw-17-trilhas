@@ -5,7 +5,12 @@ let meta = {
     checked: true
 }
 
-let metas = []
+let metas = [
+    {
+        value: 'Tomar 3.5L de água por dia.',
+        checked: false
+    }
+]
 
 const cadastrarMeta = async () => {
     const meta = await input({message: 'Digite a meta: '})
@@ -50,6 +55,23 @@ const listarMetas = async () => {
 
 }
 
+const metasRealizadas = async () => {
+    const realizadas = metas.filter((meta) => {
+        return meta.checked
+    })
+
+    if(realizadas.length == 0){
+        console.log("Não existem metas realizadas! :(")
+        return
+    }
+
+    await select({
+        message: "Metas realizadas",
+        choices: [...realizadas]
+    })
+
+}
+
 
 const start = async () => {
     while(true){
@@ -66,8 +88,8 @@ const start = async () => {
                     value: 'listar'
                 },
                 {
-                    name: "Excluir meta",
-                    value: 'excluir'
+                    name: "Metas realizadas",
+                    value: 'realizadas'
                 },
                 {
                     name: "Sair",
@@ -85,8 +107,8 @@ const start = async () => {
                 console.log("listando...")
                 await listarMetas()
                 break
-            case 'excluir':
-                console.log("excluindo...")
+            case 'realizadas':
+                await metasRealizadas()
                 break
             case 'sair':
                 return
