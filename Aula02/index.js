@@ -9,7 +9,15 @@ let metas = [
     {
         value: 'Tomar 3.5L de água por dia.',
         checked: false
-    }
+    },
+    {
+        value: 'Ler 1hora por dia.',
+        checked: false
+    },
+    {
+        value: 'Treinar 2horas por dia.',
+        checked: false
+    },
 ]
 
 const cadastrarMeta = async () => {
@@ -34,14 +42,14 @@ const listarMetas = async () => {
         instructions: false
     })
 
+    metas.forEach((m) => {
+        m.checked = false
+    })
+
     if(respostas.length == 0){
         console.log("Nenhuma meta foi selecionada.")
         return
     }
-
-    metas.forEach((m) => {
-        m.checked = false
-    })
 
     respostas.forEach((resposta) => {
         const meta = metas.find((m) => {
@@ -102,13 +110,16 @@ const start = async () => {
             case 'cadastrar':
                 console.log("cadastrando...")
                 await cadastrarMeta()
+                console.clear()
                 break
             case 'listar':
                 console.log("listando...")
                 await listarMetas()
+                console.clear()
                 break
             case 'realizadas':
                 await metasRealizadas()
+                console.clear()
                 break
             case 'sair':
                 return
