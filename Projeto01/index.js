@@ -4,7 +4,7 @@ let mensagem = "Bem vindo ao app de metas";
 
 let meta = {
     value: '',
-    checked: true
+    checked: false
 }
 
 let metas = []
