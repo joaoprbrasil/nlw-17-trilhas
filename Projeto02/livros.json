@@ -1,326 +1,326 @@
 [
-    {
-        "value": "Coraline",
-        "autor": "Neil Gaiman",
-        "ano": 2002,
-        "checked": true
-    },
-    {
-        "value": "O Estrangeiro",
-        "autor": "Albert Camus",
-        "ano": 1942,
-        "checked": true
-    },
-    {
-        "value": "Sobre a Brevidade da Vida",
-        "autor": "Sêneca",
-        "ano": 49,
-        "checked": true
-    },
-    {
-        "value": "Orgulho e Preconceito",
-        "autor": "Jane Austen",
-        "ano": 1813,
-        "checked": true
-    },
-    {
-        "value": "Hellstar Remina",
-        "autor": "Junji Ito",
-        "ano": 2005,
-        "checked": true
-    },
-    {
-        "value": "Uzumaki",
-        "autor": "Junji Ito",
-        "ano": 1998,
-        "checked": true
-    },
-    {
-        "value": "Tomie",
-        "autor": "Junji Ito",
-        "ano": 1987,
-        "checked": true
-    },
-    {
-        "value": "Os Sofrimentos do Jovem Werther",
-        "autor": "Goethe",
-        "ano": 1774,
-        "checked": true
-    },
-    {
-        "value": "O Caibalion",
-        "autor": "Atkinson",
-        "ano": 1908,
-        "checked": true
-    },
-    {
-        "value": "O Chamado de Cthulhu e Outros Contos",
-        "autor": "H. P. Lovecraft",
-        "ano": 1928,
-        "checked": true
-    },
-    {
-        "value": "Sussurros na Escuridão",
-        "autor": "H. P. Lovecraft",
-        "ano": 1930,
-        "checked": true
-    },
-    {
-        "value": "Noites Brancas",
-        "autor": "Fiódor Dostoiévski",
-        "ano": 1848,
-        "checked": true
-    },
-    {
-        "value": "Os Irmãos Karamázov",
-        "autor": "Fiódor Dostoiévski",
-        "ano": 1880,
-        "checked": true
-    },
-    {
-        "value": "Crime e Castigo",
-        "autor": "Fiódor Dostoiévski",
-        "ano": 1866,
-        "checked": true
-    },
-    {
-        "value": "O Pequeno Príncipe",
-        "autor": "Antoine de Saint-Exupéry",
-        "ano": 1943,
-        "checked": true
-    },
-    {
-        "value": "Dom Casmurro",
-        "autor": "Machado de Assis",
-        "ano": 1899,
-        "checked": true
-    },
-    {
-        "value": "O Retrato de Dorian Gray",
-        "autor": "Oscar Wilde",
-        "ano": 1890,
-        "checked": true
-    },
-    {
-        "value": "Assim Falou Zaratustra",
-        "autor": "Nietzsche",
-        "ano": 1883,
-        "checked": true
-    },
-    {
-        "value": "O Anticristo",
-        "autor": "Nietzsche",
-        "ano": 1895,
-        "checked": true
-    },
-    {
-        "value": "Tempos Líquidos",
-        "autor": "Zygmunt Bauman",
-        "ano": 2000,
-        "checked": true
-    },
-    {
-        "value": "O Mundo de Sofia",
-        "autor": "Jostein Gaarder",
-        "ano": 1991,
-        "checked": true
-    },
-    {
-        "value": "A Morte de Ivan Ilitch",
-        "autor": "Leon Tolstói",
-        "ano": 1886,
-        "checked": true
-    },
-    {
-        "value": "O Príncipe",
-        "autor": "Maquiavel",
-        "ano": 1532,
-        "checked": true
-    },
-    {
-        "value": "A Arte da Guerra",
-        "autor": "Sun Tzu",
-        "ano": -500,
-        "checked": true
-    },
-    {
-        "value": "Uma Breve História do Tempo",
-        "autor": "Stephen Hawking",
-        "ano": 1988,
-        "checked": true
-    },
-    {
-        "value": "Cosmos",
-        "autor": "Carl Sagan",
-        "ano": 1980,
-        "checked": true
-    },
-    {
-        "value": "Oyasumi Punpun",
-        "autor": "Inio Asano",
-        "ano": 2007,
-        "checked": true
-    },
-    {
-        "value": "Frankenstein",
-        "autor": "Mary Shelley",
-        "ano": 1818,
-        "checked": true
-    },
-    {
-        "value": "Helena",
-        "autor": "Machado de Assis",
-        "ano": 1876,
-        "checked": true
-    },
-    {
-        "value": "Cartas de um Diabo a seu Aprendiz",
-        "autor": "C. S. Lewis",
-        "ano": 1942,
-        "checked": true
-    },
-    {
-        "value": "O Alquimista",
-        "autor": "Paulo Coelho",
-        "ano": 1988,
-        "checked": true
-    },
-    {
-        "value": "O Lado Feio do Amor",
-        "autor": "Colleen Hoover",
-        "ano": 2014,
-        "checked": true
-    },
-    {
-        "value": "A Doutrina do Fascismo",
-        "autor": "Benito Mussolini",
-        "ano": 1932,
-        "checked": true
-    },
-    {
-        "value": "Sidarta",
-        "autor": "Hermann Hesse",
-        "ano": 1922,
-        "checked": true
-    },
-    {
-        "value": "O Lobo da Estepe",
-        "autor": "Hermann Hesse",
-        "ano": 1927,
-        "checked": true
-    },
-    {
-        "value": "Demian",
-        "autor": "Hermann Hesse",
-        "ano": 1919,
-        "checked": true
-    },
-    {
-        "value": "O Caçador de Pipas",
-        "autor": "Khaled Hosseini",
-        "ano": 2003,
-        "checked": true
-    },
-    {
-        "value": "O Livro dos Cinco Anéis",
-        "autor": "Miyamoto Musashi",
-        "ano": 1645,
-        "checked": true
-    },
-    {
-        "value": "O Sol e o Peixe",
-        "autor": "Virginia Woolf",
-        "ano": 1925,
-        "checked": true
-    },
-    {
-        "value": "Cartas a um Jovem Poeta",
-        "autor": "Rainer Maria Rilke",
-        "ano": 1929,
-        "checked": true
-    },
-    {
-        "value": "Astrofísica Para Apressados",
-        "autor": "Neil deGrasse Tyson",
-        "ano": 2017,
-        "checked": true
-    },
-    {
-        "value": "Contos Góticos Russos",
-        "autor": "Martin Claret",
-        "ano": 2016,
-        "checked": true
-    },
-    {
-        "value": "A Metamorfose",
-        "autor": "Franz Kafka",
-        "ano": 1915,
-        "checked": true
-    },
-    {
-        "value": "Minhas Invenções",
-        "autor": "Nikola Tesla",
-        "ano": 1919,
-        "checked": true
-    },
-    {
-        "value": "Pollyanna",
-        "autor": "Eleanor H. Porter",
-        "ano": 1913,
-        "checked": true
-    },
-    {
-        "value": "A Biblioteca da Meia-Noite",
-        "autor": "Matt Haig",
-        "ano": 2020,
-        "checked": true
-    },
-    {
-        "value": "O Morro dos Ventos Uivantes",
-        "autor": "Emily Brontë",
-        "ano": 1847,
-        "checked": true
-    },
-    {
-        "value": "A Revolta de Atlas",
-        "autor": "Ayn Rand",
-        "ano": 1957,
-        "checked": false
-    },
-    {
-        "value": "Walden",
-        "autor": "Henry David Thoreau",
-        "ano": 1854,
-        "checked": false
-    },
-    {
-        "value": "Drácula",
-        "autor": "Bram Stoker",
-        "ano": 1897,
-        "checked": false
-    },
-    {
-        "value": "O jogo das contas de vidro",
-        "autor": "Hermann Hesse",
-        "ano": 1943,
-        "checked": false
-    },
-    {
-        "value": "Eu, robô",
-        "autor": "Isaac Asimov",
-        "ano": 1950,
-        "checked": false
-    },
-    {
-        "value": "Gente pobre",
-        "autor": "Fiódor Dostoiévski",
-        "ano": 1849,
-        "checked": false
-    },
-    {
-        "value": "Laranja Mecânica",
-        "autor": "Anthony Burgess",
-        "ano": 1962,
-        "checked": false
-    }
+  {
+    "value": "Coraline",
+    "autor": "Neil Gaiman",
+    "ano": 2002,
+    "checked": true
+  },
+  {
+    "value": "O Estrangeiro",
+    "autor": "Albert Camus",
+    "ano": 1942,
+    "checked": true
+  },
+  {
+    "value": "Sobre a Brevidade da Vida",
+    "autor": "Sêneca",
+    "ano": 49,
+    "checked": true
+  },
+  {
+    "value": "Orgulho e Preconceito",
+    "autor": "Jane Austen",
+    "ano": 1813,
+    "checked": true
+  },
+  {
+    "value": "Hellstar Remina",
+    "autor": "Junji Ito",
+    "ano": 2005,
+    "checked": true
+  },
+  {
+    "value": "Uzumaki",
+    "autor": "Junji Ito",
+    "ano": 1998,
+    "checked": true
+  },
+  {
+    "value": "Tomie",
+    "autor": "Junji Ito",
+    "ano": 1987,
+    "checked": true
+  },
+  {
+    "value": "Os Sofrimentos do Jovem Werther",
+    "autor": "Goethe",
+    "ano": 1774,
+    "checked": true
+  },
+  {
+    "value": "O Caibalion",
+    "autor": "Atkinson",
+    "ano": 1908,
+    "checked": true
+  },
+  {
+    "value": "O Chamado de Cthulhu e Outros Contos",
+    "autor": "H. P. Lovecraft",
+    "ano": 1928,
+    "checked": true
+  },
+  {
+    "value": "Sussurros na Escuridão",
+    "autor": "H. P. Lovecraft",
+    "ano": 1930,
+    "checked": true
+  },
+  {
+    "value": "Noites Brancas",
+    "autor": "Fiódor Dostoiévski",
+    "ano": 1848,
+    "checked": true
+  },
+  {
+    "value": "Os Irmãos Karamázov",
+    "autor": "Fiódor Dostoiévski",
+    "ano": 1880,
+    "checked": true
+  },
+  {
+    "value": "Crime e Castigo",
+    "autor": "Fiódor Dostoiévski",
+    "ano": 1866,
+    "checked": true
+  },
+  {
+    "value": "O Pequeno Príncipe",
+    "autor": "Antoine de Saint-Exupéry",
+    "ano": 1943,
+    "checked": true
+  },
+  {
+    "value": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "ano": 1899,
+    "checked": true
+  },
+  {
+    "value": "O Retrato de Dorian Gray",
+    "autor": "Oscar Wilde",
+    "ano": 1890,
+    "checked": true
+  },
+  {
+    "value": "Assim Falou Zaratustra",
+    "autor": "Nietzsche",
+    "ano": 1883,
+    "checked": true
+  },
+  {
+    "value": "O Anticristo",
+    "autor": "Nietzsche",
+    "ano": 1895,
+    "checked": true
+  },
+  {
+    "value": "Tempos Líquidos",
+    "autor": "Zygmunt Bauman",
+    "ano": 2000,
+    "checked": true
+  },
+  {
+    "value": "O Mundo de Sofia",
+    "autor": "Jostein Gaarder",
+    "ano": 1991,
+    "checked": true
+  },
+  {
+    "value": "A Morte de Ivan Ilitch",
+    "autor": "Leon Tolstói",
+    "ano": 1886,
+    "checked": true
+  },
+  {
+    "value": "O Príncipe",
+    "autor": "Maquiavel",
+    "ano": 1532,
+    "checked": true
+  },
+  {
+    "value": "A Arte da Guerra",
+    "autor": "Sun Tzu",
+    "ano": -500,
+    "checked": true
+  },
+  {
+    "value": "Uma Breve História do Tempo",
+    "autor": "Stephen Hawking",
+    "ano": 1988,
+    "checked": true
+  },
+  {
+    "value": "Cosmos",
+    "autor": "Carl Sagan",
+    "ano": 1980,
+    "checked": true
+  },
+  {
+    "value": "Oyasumi Punpun",
+    "autor": "Inio Asano",
+    "ano": 2007,
+    "checked": true
+  },
+  {
+    "value": "Frankenstein",
+    "autor": "Mary Shelley",
+    "ano": 1818,
+    "checked": true
+  },
+  {
+    "value": "Helena",
+    "autor": "Machado de Assis",
+    "ano": 1876,
+    "checked": true
+  },
+  {
+    "value": "Cartas de um Diabo a seu Aprendiz",
+    "autor": "C. S. Lewis",
+    "ano": 1942,
+    "checked": true
+  },
+  {
+    "value": "O Alquimista",
+    "autor": "Paulo Coelho",
+    "ano": 1988,
+    "checked": true
+  },
+  {
+    "value": "O Lado Feio do Amor",
+    "autor": "Colleen Hoover",
+    "ano": 2014,
+    "checked": true
+  },
+  {
+    "value": "A Doutrina do Fascismo",
+    "autor": "Benito Mussolini",
+    "ano": 1932,
+    "checked": true
+  },
+  {
+    "value": "Sidarta",
+    "autor": "Hermann Hesse",
+    "ano": 1922,
+    "checked": true
+  },
+  {
+    "value": "O Lobo da Estepe",
+    "autor": "Hermann Hesse",
+    "ano": 1927,
+    "checked": true
+  },
+  {
+    "value": "Demian",
+    "autor": "Hermann Hesse",
+    "ano": 1919,
+    "checked": true
+  },
+  {
+    "value": "O Caçador de Pipas",
+    "autor": "Khaled Hosseini",
+    "ano": 2003,
+    "checked": true
+  },
+  {
+    "value": "O Livro dos Cinco Anéis",
+    "autor": "Miyamoto Musashi",
+    "ano": 1645,
+    "checked": true
+  },
+  {
+    "value": "O Sol e o Peixe",
+    "autor": "Virginia Woolf",
+    "ano": 1925,
+    "checked": true
+  },
+  {
+    "value": "Cartas a um Jovem Poeta",
+    "autor": "Rainer Maria Rilke",
+    "ano": 1929,
+    "checked": true
+  },
+  {
+    "value": "Astrofísica Para Apressados",
+    "autor": "Neil deGrasse Tyson",
+    "ano": 2017,
+    "checked": true
+  },
+  {
+    "value": "Contos Góticos Russos",
+    "autor": "Martin Claret",
+    "ano": 2016,
+    "checked": true
+  },
+  {
+    "value": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "ano": 1915,
+    "checked": true
+  },
+  {
+    "value": "Minhas Invenções",
+    "autor": "Nikola Tesla",
+    "ano": 1919,
+    "checked": true
+  },
+  {
+    "value": "Pollyanna",
+    "autor": "Eleanor H. Porter",
+    "ano": 1913,
+    "checked": true
+  },
+  {
+    "value": "A Biblioteca da Meia-Noite",
+    "autor": "Matt Haig",
+    "ano": 2020,
+    "checked": true
+  },
+  {
+    "value": "O Morro dos Ventos Uivantes",
+    "autor": "Emily Brontë",
+    "ano": 1847,
+    "checked": true
+  },
+  {
+    "value": "A Revolta de Atlas",
+    "autor": "Ayn Rand",
+    "ano": 1957,
+    "checked": false
+  },
+  {
+    "value": "Walden",
+    "autor": "Henry David Thoreau",
+    "ano": 1854,
+    "checked": false
+  },
+  {
+    "value": "Drácula",
+    "autor": "Bram Stoker",
+    "ano": 1897,
+    "checked": false
+  },
+  {
+    "value": "O jogo das contas de vidro",
+    "autor": "Hermann Hesse",
+    "ano": 1943,
+    "checked": false
+  },
+  {
+    "value": "Eu, robô",
+    "autor": "Isaac Asimov",
+    "ano": 1950,
+    "checked": false
+  },
+  {
+    "value": "Gente pobre",
+    "autor": "Fiódor Dostoiévski",
+    "ano": 1849,
+    "checked": false
+  },
+  {
+    "value": "Laranja Mecânica",
+    "autor": "Anthony Burgess",
+    "ano": 1962,
+    "checked": false
+  }
 ]
