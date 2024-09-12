@@ -28,7 +28,7 @@ const listarLivros = async () => {
 
     const resposta = await checkbox({
         message: "Use o Enter para finalizar essa etapa",
-        choices: [...livros], // atribuindo todos os valores de metas para choices
+        choices: [...livros],
         instructions: false
     })
 
