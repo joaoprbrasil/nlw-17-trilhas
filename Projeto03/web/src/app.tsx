@@ -12,7 +12,7 @@ export function App() {
     queryFn: getSummary,
     staleTime: 1000 * 60,
   })
-
+  
   return (
     <Dialog>
       {data?.total && data.total > 0 ? <Summary /> : <EmptyGoals />}

@@ -9,6 +9,7 @@ import { useQuery } from '@tanstack/react-query'
 import { getSummary } from '../../../http/get-summary'
 import dayjs from 'dayjs'
 import ptBR from 'dayjs/locale/pt-BR'
+import { PendingGoals } from './peding-goals'
 
 dayjs.locale(ptBR)
 
@@ -62,30 +63,13 @@ export function Summary() {
 
         <Separator />
 
-        <div className="flex flex-wrap gap-3">
-          <OutlineButton>
-            <Plus className="size-4 text-zinc-600" />
-            Meditar
-          </OutlineButton>
-          <OutlineButton>
-            <Plus className="size-4 text-zinc-600" />
-            Ler 2horas
-          </OutlineButton>
-          <OutlineButton>
-            <Plus className="size-4 text-zinc-600" />
-            Praticar exercícios
-          </OutlineButton>
-          <OutlineButton>
-            <Plus className="size-4 text-zinc-600" />
-            Estudar Assembly
-          </OutlineButton>
-        </div>
+        <PendingGoals />
       </div>
 
       <div className="flex flex-col gap-6">
         <h2 className="text-xl font-medium">Sua semana</h2>
 
-        {Object.keys(data.goalsPerDay).map(([date, goals]) => {
+        {Object.entries(data.goalsPerDay).map(([date, goals]) => {
           const weekDay = dayjs(date).format('dddd')
           const formattedDate = dayjs(date).format('D[ de ]MMMM')
 
@@ -93,7 +77,7 @@ export function Summary() {
             <div key={date} className="flex flex-col gap-4">
               <h3 className="font-medium">
                 <span className="capitalize">{weekDay}</span>{' '}
-                <span className="text-zinc-400 text-xs">(formattedDate)</span>
+                <span className="text-zinc-400 text-xs">({formattedDate})</span>
               </h3>
 
               <ul className="flex flex-col gap-3">
