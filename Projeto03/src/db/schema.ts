@@ -7,7 +7,7 @@ export const goals = pgTable('goals', {
     .$defaultFn(() => createId()),
   title: text('title').notNull(),
   desiredWeeklyFrequency: integer('desired_weekly_frequency').notNull(),
-  createAt: timestamp('created_at', { withTimezone: true })
+  createdAt: timestamp('created_at', { withTimezone: true })
     .notNull()
     .defaultNow(),
 })
@@ -19,7 +19,7 @@ export const goalCompletions = pgTable('goal_completions', {
   goalId: text('goal_id')
     .references(() => goals.id)
     .notNull(),
-  createAt: timestamp('created_at', { withTimezone: true })
+  createdAt: timestamp('created_at', { withTimezone: true })
     .notNull()
     .defaultNow(),
 })

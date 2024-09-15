@@ -13,10 +13,10 @@ export async function getWeekPendingGoals() {
         id: goals.id,
         title: goals.title,
         desiredWeeklyFrequency: goals.desiredWeeklyFrequency,
-        createdAt: goals.createAt,
+        createdAt: goals.createdAt,
       })
       .from(goals)
-      .where(lte(goals.createAt, lastDayOfWeek))
+      .where(lte(goals.createdAt, lastDayOfWeek))
   )
 
   const goalCompletionCounts = db.$with('goal_completion_counts').as(
@@ -28,8 +28,8 @@ export async function getWeekPendingGoals() {
       .from(goalCompletions)
       .where(
         and(
-          gte(goalCompletions.createAt, firstDayOfWeek),
-          lte(goalCompletions.createAt, lastDayOfWeek)
+          gte(goalCompletions.createdAt, firstDayOfWeek),
+          lte(goalCompletions.createdAt, lastDayOfWeek)
         )
       )
       .groupBy(goalCompletions.goalId)
